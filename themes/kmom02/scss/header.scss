@@ -1,0 +1,33 @@
+.header {
+    background-color: $footer-background-color; 
+
+}
+
+
+.nav {
+    background-color: $navbar-color; 
+    font-size: 1.3rem;
+    
+    ul {
+        width: 50rem;
+       
+    }
+    
+   
+}
+
+
+
+.logo img {
+    float: left;
+    padding-left: 120px;
+    padding-right: 1px;
+    padding-top: 10px;
+}
+
+
+.title {
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 1px;
+}
