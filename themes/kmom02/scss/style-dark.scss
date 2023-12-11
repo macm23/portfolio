@@ -1,0 +1,105 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+@import 'variables';
+@import 'typography';
+@import 'header';
+@import 'base';
+@import 'footer';
+@import 'color-palette';
+
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import 'technologies';
+
+
+.header {
+    background-color: $header-background-color-dark;
+}
+
+
+.nav {
+    background-color: $navbar-color-dark;
+    border-bottom: 3px solid $accent-color-dark;
+    border-top: 3px solid $accent-color-dark;
+}
+
+
+.logo img {
+    filter: grayscale(80%);
+}
+
+
+body {
+    background-color: $background-color-dark;
+}
+
+
+.box {
+    border: 3px solid $navbar-color-dark;
+    background: $accent-color-dark;
+}
+
+.box:hover {
+    background-color: $navbar-color-dark;
+}
+
+.footer {
+    background-color: $background-color-dark;
+}
+
+
+
+* {
+    color: #AACDF0;
+}
+
+
+p {
+    color: #AACDF0; 
+}
+
+
+.title h1 {
+    color: #AACDF0;
+}
+
+.nav li a {
+    color: #AACDF0;
+}
+
+
+.link-color {
+    background: $accent-color-dark;
+    border: 3px solid $navbar-color-dark;
+}
+
+.link-load {
+    background: $accent-color-dark;
+    border: 3px solid $navbar-color-dark;
+}
+
+.link-design-principles {
+    background: $accent-color-dark;
+    border: 3px solid $navbar-color-dark;
+}
+
+
+.link-color:hover {
+    background-color: $navbar-color-dark;
+}
+
+.link-load:hover {
+    background-color: $navbar-color-dark;
+}
+
+.link-design-principles:hover {
+    background-color: $navbar-color-dark;
+}
+

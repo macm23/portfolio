@@ -5,6 +5,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lexend+Deca:wght@700&family=Roboto+Slab:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&family=Roboto+Condensed&family=Work+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lexend+Deca:wght@700&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&family=Roboto+Condensed&family=Work+Sans:wght@500&display=swap");
 .fa,
 .fas,
 .far,
@@ -6524,72 +6527,6 @@ body {
   width: fit-content;
 }
 
-.analysis-content {
-  display: grid;
-  grid-row: span 4;
-  gap: 1rem 1rem;
-  grid-template-columns: 300px 300px 300px 300px;
-  justify-content: center;
-  padding-top: 10px;
-  width: 64rem;
-  margin: 0 auto;
-}
-
-.analysis-content h1 {
-  grid-column: span 4;
-}
-
-.linkColor {
-  grid-column: 2/span 2;
-  grid-row: 2;
-  border: 3px solid #AABBF0;
-  padding: 1rem;
-  border-radius: 10px;
-  background: #AAD1F0;
-}
-.linkColor a {
-  text-decoration: none;
-  padding-left: 35px;
-}
-
-.linkLoad {
-  grid-column: 2/span 2;
-  grid-row: 3;
-  border: 3px solid #AABBF0;
-  padding: 1rem;
-  border-radius: 10px;
-  background: #AAD1F0;
-}
-.linkLoad a {
-  text-decoration: none;
-  padding-left: 35px;
-}
-
-.linkDesignPrinciples {
-  grid-column: 2/span 2;
-  grid-row: 4;
-  border: 3px solid #AABBF0;
-  padding: 1rem;
-  border-radius: 10px;
-  background: #AAD1F0;
-}
-.linkDesignPrinciples a {
-  text-decoration: none;
-  padding-left: 8px;
-}
-
-.linkColor:hover {
-  background-color: #B0AAF0;
-}
-
-.linkLoad:hover {
-  background-color: #B0AAF0;
-}
-
-.linkDesignPrinciples:hover {
-  background-color: #B0AAF0;
-}
-
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6880,4 +6817,51 @@ pre code {
 .article-content {
   width: 64rem;
   margin-right: 400px;
+}
+
+.header {
+  background-color: #232B33;
+}
+
+.nav {
+  background-color: #2A4157;
+  border-bottom: 3px solid #232B33;
+  border-top: 3px solid #232B33;
+}
+
+.logo img {
+  filter: grayscale(80%);
+}
+
+body {
+  background-color: #2A4157;
+}
+
+.box {
+  border: 3px solid #2A4157;
+  background: #232B33;
+}
+
+.box:hover {
+  background-color: #2A4157;
+}
+
+.footer {
+  background-color: #2A4157;
+}
+
+* {
+  color: #AACDF0;
+}
+
+p {
+  color: #AACDF0;
+}
+
+.title h1 {
+  color: #AACDF0;
+}
+
+.nav li a {
+  color: #AACDF0;
 }
