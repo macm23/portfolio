@@ -99,7 +99,7 @@ varningsskyltar och varningstexter i vardagen. Det är en färg som vi är vana 
 Alla sidor såg väldigt lika ut. Aftonbladet och Expressen var väldigt lika i färgerna i och med att de även hade varsin färgglad logga. De använde sig även av stor "EXTRA"
 text i kursiv stil för att belysa något extra viktigt som hade hänt. SVT hade däremot inte det. 
 
-Alla hemsidor använde sig av flera fonter beroende på vad användarna som är inne på hemsidorna kan se på sin dator. Det de alla hade genemsamt var att de hade med Arial som ett val. De var alla sans-serif, vilket jag utgår beror på att man vill att den ska vara så läsbar som möjligt och sans-serif fonter är bra att ha på mindre skärmar då serif kan göra det svårare att läsa texten där (boken). Fet stil användes också i olika kapacitet till rubriker för nyheterna. Expressen var den sida som verkade använda störst textstorlek med en fet stil till sina rubriker, medan SVT hade minst textstorlek. Jag tror att man använder sig av större textstorlek och fet/kursiv stil för att dra uppmärksamhet till innehållet. 
+Alla hemsidor använde sig av flera fonter beroende på vad användarna som är inne på hemsidorna kan se på sin dator. Det de alla hade genemsamt var att de hade med Arial som ett val. De var alla sans-serif, vilket jag utgår beror på att man vill att den ska vara så läsbar som möjligt och sans-serif fonter är bra att ha på mindre skärmar då serif kan göra det svårare att läsa texten där (Beaird et al, 2020). Fet stil användes också i olika kapacitet till rubriker för nyheterna. Expressen var den sida som verkade använda störst textstorlek med en fet stil till sina rubriker, medan SVT hade minst textstorlek. Jag tror att man använder sig av större textstorlek och fet/kursiv stil för att dra uppmärksamhet till innehållet. 
 
 Jag tror även att man vill ha en ganska minimal design då man använder sig av mycket bilder istället, vilket adderar färg åt webbplatserna. Expressen och Aftonbladet har dessutom reklam på sina sidor. 
 
@@ -110,7 +110,7 @@ Jag tror att Aftonbladet och Expressen fokuserar mer på att förmedla nyheter p
 
 Referenser
 -----------------------
-Kursmaterialet till uppgiften på Canvas, "The principles of Beautiful Web Design”
+Kursmaterialet till uppgiften på Canvas, Beaird, J., George, J., & Walker, A. (2020). The principles of beautiful web design, 4th edition. SitePoint.
 
 
 Övrigt
