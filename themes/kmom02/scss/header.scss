@@ -1,24 +1,19 @@
 .header {
-    background-color: $header-background-color; 
+    background-color: $footer-background-color; 
 
-    a {
-        text-decoration: none;
-    }
 }
 
 
 .nav {
     background-color: $navbar-color; 
     font-size: 1.3rem;
-    border-bottom: 3px solid $accent-color;
-    border-top: 3px solid $accent-color;
     
     ul {
         width: 50rem;
-        margin-left: 460px;
-    
        
     }
+    
+   
 }
 
 
@@ -28,7 +23,6 @@
     padding-left: 120px;
     padding-right: 1px;
     padding-top: 10px;
-    filter: contrast(500%);
 }
 
 
@@ -36,5 +30,4 @@
     text-align: left;
     padding-top: 80px;
     padding-left: 1px;
-
 }

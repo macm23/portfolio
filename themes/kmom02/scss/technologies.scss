@@ -13,20 +13,17 @@
 
 
 .box {
-    border: 3px solid $accent-color;
+    border: 3px solid $navbar-color;
     padding: 1rem;
 
     border-radius: 20px;
-    background: #AAD1F0;
+    background: $footer-background-color;
 
     h1 {
         font-size: 1.5rem;
         width: 70px;
+    
 
-    }
-
-    a {
-        text-decoration: none;
     }
 
 }
