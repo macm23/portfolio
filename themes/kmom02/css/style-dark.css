@@ -7,7 +7,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&family=Roboto+Condensed&family=Work+Sans:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lexend+Deca:wght@700&family=Roboto+Slab:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Nova+Square&family=Roboto+Condensed&family=Work+Sans:wght@500&display=swap");
 .fa,
 .fas,
 .far,
@@ -6428,8 +6427,8 @@ template {
 }
 
 * {
-  font-family: "Inter", sans-serif;
-  color: #181616;
+  font-family: "Roboto", sans-serif;
+  color: #252323;
 }
 
 p {
@@ -6443,44 +6442,30 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   width: 64rem;
   margin-bottom: 1.82rem;
   margin: 1.82rem auto;
 }
 
 .title h1 {
-  color: black;
   width: 80rem;
   margin-bottom: 1.82rem;
   margin: 1.82rem auto;
-  font-family: "Nova Square", sans-serif;
-  font-size: 3.5rem;
-}
-
-.nav li a {
-  font-family: "Work Sans", sans-serif;
-  font-size: 1.2em;
-  font-weight: bold;
-  color: black;
+  font-family: "DM Serif Display", serif;
+  font-size: 3rem;
 }
 
 .header {
-  background-color: #AAE7F0;
-}
-.header a {
-  text-decoration: none;
+  background-color: #c4b3a9;
 }
 
 .nav {
-  background-color: #B0AAF0;
+  background-color: #e6d2d2;
   font-size: 1.3rem;
-  border-bottom: 3px solid #AABBF0;
-  border-top: 3px solid #AABBF0;
 }
 .nav ul {
   width: 50rem;
-  margin-left: 460px;
 }
 
 .logo img {
@@ -6488,7 +6473,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 120px;
   padding-right: 1px;
   padding-top: 10px;
-  filter: contrast(500%);
 }
 
 .title {
@@ -6517,14 +6501,83 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  background-color: #E6EBEA;
+  background-color: #ebebeb;
 }
 
 .footer {
-  background-color: #E6EBEA;
+  background-color: #c4b3a9;
   position: fixed;
   bottom: 0;
-  width: fit-content;
+  width: 100%;
+}
+
+.analysis-content {
+  display: grid;
+  grid-row: span 4;
+  gap: 1rem 1rem;
+  grid-template-columns: 100px 450px auto 250px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.small {
+  width: 65%;
+  border: 1px solid rgb(10, 10, 10);
+}
+
+.analysis-content h1 {
+  grid-column: 2/2;
+}
+
+.link-color {
+  grid-column: 2/span 1;
+  grid-row: 2;
+  border: 3px solid #c4b3a9;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #AAD1F0;
+}
+.link-color a {
+  text-decoration: none;
+  padding-left: 35px;
+}
+
+.link-load {
+  grid-column: 2/span 1;
+  grid-row: 3;
+  border: 3px solid #c4b3a9;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #AAD1F0;
+}
+.link-load a {
+  text-decoration: none;
+  padding-left: 35px;
+}
+
+.link-design-principles {
+  grid-column: 2/span 1;
+  grid-row: 4;
+  border: 3px solid #c4b3a9;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #AAD1F0;
+}
+.link-design-principles a {
+  text-decoration: none;
+  padding-left: 8px;
+}
+
+.link-color:hover {
+  background-color: #e6d2d2;
+}
+
+.link-load:hover {
+  background-color: #e6d2d2;
+}
+
+.link-design-principles:hover {
+  background-color: #e6d2d2;
 }
 
 blockquote {
@@ -6684,7 +6737,7 @@ pre code {
     grid-column: span 1;
   }
   .main .landingpage .box {
-    border: 1px solid #B0AAF0;
+    border: 1px solid #e6d2d2;
     padding: 0.5rem;
   }
   .main .landingpage .box h1 {
@@ -6734,21 +6787,18 @@ pre code {
 }
 
 .box {
-  border: 3px solid #AABBF0;
+  border: 3px solid #e6d2d2;
   padding: 1rem;
   border-radius: 20px;
-  background: #AAD1F0;
+  background: #c4b3a9;
 }
 .box h1 {
   font-size: 1.5rem;
   width: 70px;
 }
-.box a {
-  text-decoration: none;
-}
 
 .box:hover {
-  background-color: #B0AAF0;
+  background-color: #e6d2d2;
 }
 
 .box:nth-child(1) {
@@ -6806,7 +6856,7 @@ pre code {
 .tech-menu {
   width: 10%;
   padding-left: 20px;
-  border: 3px solid #B0AAF0;
+  border: 3px solid #e6d2d2;
   border-radius: 20px;
   margin-left: 100px;
 }
@@ -6864,4 +6914,31 @@ p {
 
 .nav li a {
   color: #AACDF0;
+}
+
+.link-color {
+  background: #232B33;
+  border: 3px solid #2A4157;
+}
+
+.link-load {
+  background: #232B33;
+  border: 3px solid #2A4157;
+}
+
+.link-design-principles {
+  background: #232B33;
+  border: 3px solid #2A4157;
+}
+
+.link-color:hover {
+  background-color: #2A4157;
+}
+
+.link-load:hover {
+  background-color: #2A4157;
+}
+
+.link-design-principles:hover {
+  background-color: #2A4157;
 }

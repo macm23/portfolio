@@ -24,11 +24,18 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .title h1 {
+    color: $font-title1-color;
     width: 80rem;
     margin-bottom: 1.82rem;
     margin: 1.82rem auto;
     font-family: $header-font1;
-    font-size: 3rem;
+    font-size: 3.5rem;
 
 }
 
+.nav li a {
+    font-family: $navbar-font;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+}
