@@ -1,7 +1,8 @@
 
 .slide {
-    overflow-y: hidden !important;
+    overflow-x: hidden !important;
     transition: height 0.5s ease-in !important;
+    overflow-y: hidden !important;
 }
 
 .hidden {
@@ -29,6 +30,10 @@
 }
 
 
+.body {
+    overflow-y: auto;
+    overflow-x: hidden !important;
+}
 
 
 
@@ -75,9 +80,9 @@
     }
     
     .footer {
-        width: 100%;
         position: fixed;
         bottom: 0;
+        max-width: fit-content;
     }
 
     .header {
@@ -96,12 +101,6 @@
         }
     }
 
-
-    .body {
-        max-width: 100%;
-    }
-    
-
     h1, h2, h3, h4, h5, h6 {
         max-width: 100%;
     }
@@ -109,6 +108,8 @@
     .main {
         max-width: 100%;
         margin-bottom: 50px;
+        overflow-x: hidden !important;
+
     }
 
     .main {
@@ -138,7 +139,7 @@
         display: none;
     }
 
-    .main .article-content {
+    .article-content {
         max-width: 100%;
     }
 
@@ -146,18 +147,18 @@
         max-width: 100%;
     }
     
-    .main .landingpage {
+    .landingpage {
         display: grid;
         grid-row: span 8;
         grid-template-columns: 70%;
         justify-content: center;
     }
     
-    .main .landingpage h1 {
+    .landingpage h1 {
         grid-column: span 1;
     }
 
-    .main .landingpage .box {
+    .landingpage .box {
         border: 1px solid $navbar-color;
         padding: 0.5rem;
 
@@ -204,6 +205,57 @@
             grid-row: 8;     
         }
     }
+
+
+    .gallery-content {
+        display: grid;
+        grid-row: span 10;
+        grid-template-columns: 80%;
+    }
     
-}
+    .gallery-content h1 {
+        grid-column: span 1;
+    }
+
+    
+    .gallery-content {
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .analysis-content {
+            display: grid;
+            grid-row: span 4;
+            grid-template-columns: 70%;
+            justify-content: center;
+        }
+
+        .analysis-content h1 {
+            grid-column: span 1;
+        }
+
+
+        .analysis-content {
+
+            .link-color {
+                grid-column: span 1;
+                grid-row: 2;
+            }
+            
+            .link-load {
+                grid-column: 1;
+                grid-row: 3;
+            }
+
+            .link-design-principles {
+                grid-column: 1;
+                grid-row: 4;
+            }
+        }
+
+    
+    }
+    
+
 

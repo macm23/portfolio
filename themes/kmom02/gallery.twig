@@ -1,0 +1,20 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+   
+        <div class="gallery-content">
+             {{ content }}
+
+        </div>
+
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/i06gsNuLLKU?si=wORQh0TdLYFBzne2" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>

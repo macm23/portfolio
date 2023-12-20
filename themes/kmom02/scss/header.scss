@@ -12,11 +12,11 @@
     font-size: 1.3rem;
     border-bottom: 3px solid $accent-color;
     border-top: 3px solid $accent-color;
+    height: 80px;
+    padding-bottom: 20px;
     
     ul {
-        width: 50rem;
-        margin-left: 460px;
-    
+        width: 65rem;
        
     }
 }
@@ -34,7 +34,13 @@
 
 .title {
     text-align: left;
-    padding-top: 80px;
+    padding-top: 70px;
     padding-left: 1px;
+
+    p {
+        font-weight: bold;
+        position: relative;
+        padding-right: 210px;
+    }
 
 }
