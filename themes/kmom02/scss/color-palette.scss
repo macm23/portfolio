@@ -95,3 +95,20 @@
     width: 100%;
     height: 100%;
 }
+
+
+.kalkylark {
+    position: relative;
+    margin-left: 23%;
+
+    iframe {
+        height: 250px;
+        width: 960px;
+        border: 3px dotted $navbar-color;
+    }
+}
+
+img.loadImg {
+    border: 3px double $navbar-color;
+}
+
