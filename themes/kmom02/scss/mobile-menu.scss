@@ -225,37 +225,36 @@
     }
 
     .analysis-content {
-            display: grid;
-            grid-row: span 4;
-            grid-template-columns: 70%;
-            justify-content: center;
-        }
+        display: grid;
+        grid-row: span 4;
+        grid-template-columns: 70%;
+        justify-content: center;
+    }
 
-        .analysis-content h1 {
+    .analysis-content h1 {
+        grid-column: span 1;
+    }
+
+
+    .analysis-content {
+        .link-color {
             grid-column: span 1;
+            grid-row: 2;
         }
-
-
-        .analysis-content {
-
-            .link-color {
-                grid-column: span 1;
-                grid-row: 2;
-            }
             
-            .link-load {
-                grid-column: 1;
-                grid-row: 3;
-            }
-
-            .link-design-principles {
-                grid-column: 1;
-                grid-row: 4;
-            }
+        .link-load {
+            grid-column: 1;
+            grid-row: 3;
         }
+
+        .link-design-principles {
+            grid-column: 1;
+            grid-row: 4;
+        }
+    }
 
     
-    }
+}
     
 
 
