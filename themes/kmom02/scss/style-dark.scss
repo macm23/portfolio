@@ -28,8 +28,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 .nav {
     background-color: $navbar-color-dark;
-    border-bottom: 3px solid $accent-color-dark;
-    border-top: 3px solid $accent-color-dark;
+    border: 3px dashed $accent-color-dark;
 }
 
 
@@ -48,9 +47,6 @@ body {
     background: $accent-color-dark;
 }
 
-.box:hover {
-    background-color: $navbar-color-dark;
-}
 
 .footer {
     background-color: $background-color-dark;
@@ -62,6 +58,9 @@ body {
     color: #AACDF0;
 }
 
+a {
+    color: #AACDF0; 
+}
 
 p {
     color: #AACDF0; 
@@ -93,19 +92,20 @@ p {
 }
 
 
-.link-color:hover {
-    background-color: $navbar-color-dark;
-}
-
-.link-load:hover {
-    background-color: $navbar-color-dark;
-}
-
-.link-design-principles:hover {
-    background-color: $navbar-color-dark;
-}
-
 
 .gallery-content img {
     border: 3px solid $navbar-color-dark;
 }
+
+code {
+    color: $header-background-color-dark;
+    border: 1px solid #ccc;
+    background: #AACDF0;
+
+}
+
+pre {
+    border: 1px solid #ccc;
+    background: #AACDF0;
+}
+

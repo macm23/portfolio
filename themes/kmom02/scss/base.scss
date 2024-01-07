@@ -1,39 +1,38 @@
 .main {
     padding-bottom: 2%;
-
-
-
-    img {
-        border: 2px solid #2c2b2b;
-    
-    }
  
     ul {
         width:  64rem;
         margin: 0 auto;
-    
     }
 
     ol {
         width: 64rem;
         margin: 0 auto;
-    
     }
 
     table {
         width:  64rem;
         margin: 0 auto;
-    
     }
-
-
-
 }
 
 
 
 body {
     background-color: $background-color;
-
 }
+
+.img-me img {
+    float: right;
+    position: relative;
+    margin-right: 450px;
+    padding: 10px;
+    padding-top: 0;
+    width: 420px;
+    height: 520px;
+    border-radius: 2px;
+    filter: grayscale(50%);
+}
+
 

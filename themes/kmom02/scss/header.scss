@@ -1,46 +1,39 @@
 .header {
     background-color: $header-background-color; 
-
-    a {
-        text-decoration: none;
-    }
 }
-
 
 .nav {
-    background-color: $navbar-color; 
     font-size: 1.3rem;
-    border-bottom: 3px solid $accent-color;
-    border-top: 3px solid $accent-color;
-    height: 80px;
-    padding-bottom: 20px;
-    
-    ul {
-        width: 65rem;
-       
-    }
+    border: 3.5px dashed rgb(19, 18, 18);
+    border-radius: 0.5em;
+    width: 770px;
+    margin-left: 510px;
+    margin-top: 80px;
+    background-color: $background-color; 
 }
 
+.nav ul {
+    width: fit-content;
+    margin: 0;
 
+    a { 
+        font-size: 1em;
+    }
+}
 
 .logo img {
     float: left;
-    padding-left: 120px;
-    padding-right: 1px;
-    padding-top: 10px;
-    filter: contrast(500%);
+    margin-left: 560px;
+    filter: contrast(100%);
 }
 
 
 .title {
-    text-align: left;
-    padding-top: 70px;
-    padding-left: 1px;
+    margin-left: 740px;
+    padding-top: 50px;
 
     p {
         font-weight: bold;
         position: relative;
-        padding-right: 210px;
     }
-
 }

@@ -16,21 +16,21 @@ Jag har valt att analysera följande webbplatser:
 
 <ul>
     <li>
-<a href="https://www.youtube.com/watch?v=b1kbLwvqugk">YouTube</a></li>
+<a href="https://www.youtube.com/watch?v=b1kbLwvqugk" aria-label="Youtube">Youtube</a></li>
 </ul>
 
 ![Youtube](%base_url%/image/youtube.png?h=550&w=650) 
 
 <ul>
     <li> 
-<a href="https://www.asos.com/se/kvinna/ctas/host-visa-alla/cat/?cid=51129">Asos</a></li>
+<a href="https://www.asos.com/se/kvinna/ctas/host-visa-alla/cat/?cid=51129" aria-label="Asos">Asos</a></li>
 </ul>
 
 ![Asos](%base_url%/image/asos.png?h=550&w=650)
 
 <ul>
     <li> 
-<a href="https://en.wikipedia.org/wiki/Antarctica">Wikipedia</a></li>
+<a href="https://en.wikipedia.org/wiki/Antarctica" aria-label="Wikipedia">Wikipedia</a></li>
 </ul>
 
 ![Wikipedia](%base_url%/image/wikipedia.png?h=550&w=650&border=) 
@@ -47,7 +47,7 @@ Jag utförde analysen genom att analysera webbplatserna på https://pagespeed.we
 Resultat
 -----------------------
 <div class="kalkylark">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuVU3Q1DPt7T1gfA5KQPxcGUIzRUn47fcTnj3AjtZH88dVshzFNY5D3C2MGS8Sa_AdnYkqStuBICd5/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuVU3Q1DPt7T1gfA5KQPxcGUIzRUn47fcTnj3AjtZH88dVshzFNY5D3C2MGS8Sa_AdnYkqStuBICd5/pubhtml?widget=true&amp;headers=false" title="kalkylark"></iframe>
 </div>
 
 Ovan har jag i Google Kalkylark rangordnat webbplatserna från långsammast till snabbast enligt devtools nätverk. Som går att utläsa så var YouTube den webbplats som tog mest tid att ladda in allt innehåll, men det var också den som hade det störst storlek och antal resurser att ladda in. Asos var den som tog näst mest tid att ladda in allt innehåll, samt var den som hade näst störst storlek och antal resurser att ladda in. Wikipedia hade minst antal resurser och minst totala storlek att ladda in och tog även kortast tid.   

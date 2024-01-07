@@ -1,11 +1,12 @@
 .analysis-content {
     display: grid;
-    grid-row: span 4;
+    grid-row: span 10;
+    grid-template-rows: auto 200px auto 200px 200px 200px 100px auto auto auto;
     gap: 1rem 1rem;
-    grid-template-columns: 100px 450px auto 250px;
+    grid-template-columns: 500px 400px 300px 200px;
     justify-content: center;
     padding-top: 10px;
-    
+    margin-left: 10%;
 }
 
 .small {
@@ -14,69 +15,95 @@
 }
 
 .analysis-content h1 {
+    grid-column: span 3;
+}
+
+.img-kod1 {
     grid-column: 2 / 2;
+    grid-row: 2 / 3;
+}
+
+.img-kod1 img {
+    border-radius: 2px;
+    filter: grayscale(50%);
+    max-width: 400px;
+    height: 285px;
+    object-fit: cover;
+}
+
+.img-kod2 {
+    grid-column: 1 / 1;
+    grid-row: 3 / 5;
+    padding-bottom: 0;
+}
+
+.img-kod2 img {
+    border-radius: 2px;
+    filter: grayscale(50%);
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.img-kod3 {
+    grid-column: 3 / 3;
+    grid-row: 4 / 4;
+}
+
+.img-kod3 img {
+    border-radius: 2px;
+    filter: grayscale(50%);
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .link-color {
-    grid-column: 2 / span 1;
-    grid-row: 2;
-
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
     border: 3px solid $accent-color;
     padding: 1rem;
-
-    border-radius: 10px;
-    background: #AAD1F0;
+    border-radius: 2px;
+    background: #C09DB8;
 
     a {
-        text-decoration: none;
-        padding-left: 35px;
+        text-align: center;
+        font-size: 2.5em;
     }
 }
 
 .link-load {
-    grid-column: 2 / span 1;
-    grid-row: 3;
-
+    grid-column: 3 / 3;
+    grid-row: 2 / 4;
     border: 3px solid $accent-color;
     padding: 1rem;
-
-    border-radius: 10px;
-    background: #AAD1F0;
+    border-radius: 2px;
+    background: #C09DB8;
 
     a {
-        text-decoration: none;
-        padding-left: 35px;
+        text-align: center;
+        font-size: 2.2em;
     }
 }
 
 .link-design-principles {
-    grid-column: 2 / span 1;
-    grid-row: 4;
+    grid-column: 2 / 3;
+    grid-row: 4 / 4;
 
     border: 3px solid $accent-color;
     padding: 1rem;
 
-    border-radius: 10px;
-    background: #AAD1F0;
+    border-radius: 2px;
+    background: #C09DB8;
 
     a {
-        text-decoration: none;
-        padding-left: 8px;
+        font-size: 1.4em;
+        text-align: center;
     }
 }
 
 
-.link-color:hover {
-    background-color: $navbar-color;
-}
-
-.link-load:hover {
-    background-color: $navbar-color;
-}
-
-.link-design-principles:hover {
-    background-color: $navbar-color;
-}
 
 .embed-container {
     position: relative;
@@ -96,6 +123,10 @@
     height: 100%;
 }
 
+.video {
+    width: 50%;
+    margin-left: 25%;
+}
 
 .kalkylark {
     position: relative;

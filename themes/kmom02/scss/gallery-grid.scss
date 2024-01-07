@@ -1,11 +1,12 @@
 .gallery-content {
     display: grid;
     grid-row: span 4;
-    gap: 2px 2px;
+    column-gap: 10px;
+    row-gap: 5px;
     grid-template-columns: 350 350 350;
     grid-template-rows:450 450 450;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
     
 }
 
@@ -21,13 +22,9 @@
     }
 
     img {
-        border: 3px double $navbar-color;
-        border-radius: 5px;
-        background: $footer-background-color;
-    }
-
-    img:hover {
-        background-color: $navbar-color;
+        border-radius: 2px;
+        filter: grayscale(30%);
+        
     }
 
     img:nth-child(1) {
