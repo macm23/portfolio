@@ -58,7 +58,7 @@ Jag tycker att jag hade kunnat balansera upp sidan mer. Som jag tidigare nämnde
 
 <b>Uppdateringar</b>
 
-Jag gjorde en ganska stor uppdatering på designen. Jag ändrade mitt färgschema mycket då jag tycker att det var för mycket färger. Jag ändrade också undersidorna och lade till fler bilder vid menyerna så att det inte skulle se så tomt ut. Jag ville också ha mer balans och mindre negativt utrymme som inte användes till något. Jag använde mig även av en dashed-border runt menyn för att dra uppmärksamheten dit. Jag tycker det blev lite bättre, men jag hade absolut kunnat fortsätta utveckla sidorna med fler designprinciper. 
+Jag gjorde en ganska stor uppdatering på designen. Jag valde att använda mig av designprinciperna "repetition", "skala" och "linjer" för att förbättra min hemsida. Jag ändrade mitt färgschema mycket då jag tycker att det var för mycket färger och repeterade färgerna för alla undersidor så att det skulle vara enhetligt. Jag ändrade också undersidorna och lade till fler bilder vid menysidorna för Teknologier och Rapport. Jag gjorde menyerna och bilderna i olika skalor för att det skulle "hända" mer på sidan. Jag använde mig även av linjer genom att ha en dashed-border runt menyn för att dra uppmärksamheten dit. 
 
 Referenser
 -----------------------
